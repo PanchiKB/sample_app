@@ -12,3 +12,10 @@ Listing 3.1. A Gemfile for the sample app.
 $ bundle install --without production
 
 $ rails generate rspec:install
+
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+
+$ git mv README.rdoc README.md
+$ git commit -a -m "Improve the README"
